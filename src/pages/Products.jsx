@@ -4,7 +4,7 @@ import { DisplayAllProducts, Form, Filters } from "../components";
 import { Link, useLoaderData } from "react-router-dom";
 import axios from "axios";
 import { useProductsContext } from "../context/ProductsProvider";
-const REMOTE_SERVER = "https://api.futurafinds.com"
+const REMOTE_SERVER = "https://backendim.onrender.com"
 
 export const loader = async () => {
   try {
